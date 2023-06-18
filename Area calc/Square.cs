@@ -14,7 +14,7 @@ namespace Area_calc
         }
         public override void area()
         {
-            Console.WriteLine($"S(square) = {a * b:.02}");
+            Console.WriteLine($"S(square) = {a * b:0.00}");
         }
     }
 }
