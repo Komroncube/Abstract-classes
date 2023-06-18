@@ -13,7 +13,7 @@ namespace Area_calc
         {
 
             double s = (a + b) / 2 * Math.Sqrt(Math.Pow(c, 2) - Math.Pow(((Math.Pow(a - b, 2) + Math.Pow(c, 2) - Math.Pow(d, 2)) / (2 * (a - b))), 2));
-            Console.WriteLine($"S(trapezium) = {s:.02}");
+            Console.WriteLine($"S(trapezium) = {s:0.00}");
 
         }
     }
