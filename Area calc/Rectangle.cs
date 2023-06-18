@@ -12,7 +12,7 @@ namespace Area_calc
         { }
         public override void area()
         {
-            Console.WriteLine($"S(rectangle) = {a * b:.02}");
+            Console.WriteLine($"S(rectangle) = {a * b:0.00}");
         }
     }
 }
