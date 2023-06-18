@@ -19,7 +19,7 @@ namespace Area_calc
         {    
             double p = (a + b + c) / 2;
             double s = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
-            Console.WriteLine($"S(triangle) = {s:.02}");
+            Console.WriteLine($"S(triangle) = {s:0.00}");
         }
         private double a = 0;
         private double b = 0;
